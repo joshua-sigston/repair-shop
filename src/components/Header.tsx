@@ -1,5 +1,5 @@
 import React from "react";
-import NavButton from "./NavButton";
+import NavButton from "./nav-button";
 import { File, HomeIcon, UsersRound } from "lucide-react";
 import Link from "next/link";
 import { ModeToggle } from "./mode-toggle";
