@@ -1,7 +1,7 @@
 import React from "react";
 
 export const metadata = {
-  title: "Customers",
+  title: "Customers --force",
 };
 
 export default function Customers() {
