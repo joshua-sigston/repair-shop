@@ -4,6 +4,7 @@ export const dynamic = "force-dynamic";
 
 // A faulty API route to test Sentry's error monitoring
 export function GET() {
+  console.log("sentry example");
   throw new Error("Sentry Example API Route Error");
   return NextResponse.json({ data: "Testing Sentry Error..." });
 }
